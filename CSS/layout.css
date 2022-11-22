@@ -1,0 +1,30 @@
+/* laypot.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+/* common */
+body{font-size: 14px;font-family: 'Noto Sans','Noto Sans KR',Helvetica,sans-serif;color: #333;}
+a{text-decoration: none;color: #333;}
+a:hover{text-decoration: none;color: #333;}
+
+/* layout.css */
+#wrap{width: 100%;}
+    #header{z-index: 40;position: relative;width: 100%;height: 70px;}
+        .header_wrap{
+            position: absolute;left: 0;top: 0;width: 100%;height: 70px;
+            background-color: #f3f3f3;}
+            .header_inner{
+                position: relative;width: 100%;height: 70px;
+                background-color: #fff;
+                /* border-bottom: 1px solid #ccc; */}
+    .main_visual{z-index: 30;position: relative;width: 100%;}
+    #container{width: 100%;}
+        .content1{width: 100%;margin: 0 auto;padding: 90px 0 120px;background: linear-gradient(to bottom, #f4f6fb 40%, #fff 40%, #fff 60%);}
+        .content2{position: relative;height: 290px;width: 100%;overflow: hidden;background: url(../images/bg_prhall.jpg) no-repeat 0 0;}
+        .content3{background-color: #f4f7fb;padding: 120px 0 180px;}
+        .content4{overflow: hidden;}
+    .sitemap{/*z-index: 30;position: relative;*/width: 100%;background-color: #f3f3f3;}
+    #footer{position: relative;width: 100%;height: 185px;background-color: #474a4f;}
+        .footer_inner{width: 1142px;margin: 0 auto;padding: 20px 0;}
