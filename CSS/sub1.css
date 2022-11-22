@@ -9,12 +9,16 @@
 .spot{
     background: url(../images/faq_visual_img.jpg) no-repeat 50% 0;
     color: #fff;
+    width: 100%;min-width: 1140px;max-width: 1920px;
+    height: 320px;
 }
+.spot_inner {width: 1140px;margin: 0 auto 120px;padding: 95px 0 0;}
 .spot_inner>h2{font-size: 46px;margin-bottom: 15px;}
 .spot_inner>p{font-size: 16px;color: #eee;}
 .spot_inner>p.path{padding-top: 50px;text-align: right;font-size: 14px;color: #ccc;}
 
 /* content */
+#content {width: 1140px;margin: 0 auto 120px;padding: 100px 0 160px;}
 #content h3{font-size: 36px;color: #000;font-weight: bold;line-height: 1;/* 가로로 나란히 나열 */}
 #content h3:after{
     content: "";display: block;
