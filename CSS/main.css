@@ -187,7 +187,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
 
 /* newsletter */
 .content2>.newsletter{
-    float: left;width: 600px;height: 190px;margin-left: 0 30px;
+    float: left;width: 600px;height: 190px;margin-left: 30px;
     background: url(../images/bg_newsletter.jpg) no-repeat 0 0;
     padding-left: 50px;
 }
