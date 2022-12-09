@@ -46,12 +46,20 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
 .slide_roll>a.btn_play.on{background-position: -9px 0;}
 
 /* container */
+.target.toup{transform:translateY(50px); -webkit-transform:translateY(50px); -moz-transform:translateY(50px); opacity:0; transition:all .6s ease-in-out; -webkit-transition:all .6s ease-in-out; -moz-transition:all .6s ease-in-out;}
+.target.toup.active{transform:translate(0); -webkit-transform:translate(0); -moz-transform:translate(0); opacity:1;}
+
+.active .txt_wrap{opacity:1;}
+.active .txt_wrap .tit{opacity:1;}
+.active .txt_wrap .txt{opacity:1;}
+
 /* content1 */
 .content1>h2{
     font-size: 38px;font-weight: 600;text-align: center;
     margin-bottom: 60px;line-height: 1;}
 .content1 .box_wrap{width: 1200px;margin: 0 auto;}
 
+#newsList {opacity: 0; transition: all .6s ease-in-out;}
 .content1 .news_list{width: 1200px;height: 340px;margin: 0 auto;margin-bottom: 85px;}
 .content1 .news_list .news{
     float: left;transition: all .3s ease-in-out;
@@ -95,6 +103,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
 }
 
 /* content1-newsletter_box */
+#newsletter_box {opacity: 0; transition: all .6s ease-in-out;}
 .content1 .newsletter_box{
     background: #f4f7fb url(../images/bg_newsletter_.jpg) no-repeat left 35px top 40px;
     height: 180px;
@@ -124,6 +133,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
 }
 
 /* content2 */
+#prhall_sec {opacity: 0;transition: all .6s ease-in-out;}
 .content2 a{
     display: block;
     width: 100%;
@@ -177,13 +187,14 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
 .content2 a .bg {
     text-indent: -9999px;
     position: absolute;
-    top: 0px;
+    top: 30px;
     right: 0;
     width: 45%;
     height: 100%;
     background: url(../images/img_prhall.png) no-repeat center;
     transition: all 1s ease-in-out;
 }
+.content2.active .bg{top:0;}
 
 /* newsletter */
 .content2>.newsletter{
@@ -265,6 +276,7 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
     border: none;
 }
 
+#listarea1,#listarea2,#listarea3 {opacity: 0;transition: all .5s ease-in-out;}
 .content3 .product_list {
     padding-top: 50px;
     border-top: 1px solid #e4e6ea;
@@ -308,6 +320,11 @@ a.btn_next{right: 30px;background-position: -30px 0;}/* 스프라이트 이미�
     float: left;
     width: 50%;
     height: 350px;
+}
+.content3 .list_area .right .img_area {
+    transform: translateX(30px);
+    -webkit-transform: translateX(30px);
+    -moz-transform: translateX(30px);
 }
 .content3 .product_list .list_area .prd_area .img_area {
     opacity: 1;
