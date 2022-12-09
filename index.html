@@ -62,10 +62,10 @@
     <!-- container -->
     <div id="container">
         <!-- content1 -->
-        <div class="content1">
-            <h2>뉴스룸</h2>
+        <div class="content1" id="newsList">
+            <h2 class="toup active">뉴스룸</h2>
             <div class="box_wrap">
-                <ul class="news_list target toup">           		
+                <ul class="news_list target toup active">
                     <li class="news">
                         <a href="#">
                             <div class="img_area">
@@ -83,7 +83,7 @@
                     <li class="news">
                         <a href="#">
                             <div class="img_area">
-                                <img src="images/imageView_1.png" alt="Samsung-Electro-Mechanics/Training-Video-Series/Impedance(Part2)">
+                                <img src="images/imageView_1.png" alt="Samsung-Electro-Mechanics/Training-Video-Series/Impedance(Part 2)">
                             </div>
                             <div class="txt_area">
                                 <div class="top_txt">
@@ -109,7 +109,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="newsletter_box">
+                <div class="newsletter_box toup" id="newsletter_box">
                     <h3>뉴스레터</h3>
                     <p class="txt">삼성전기의 주요 소식들을 신속하게 전해드립니다.</p>
                     <div class="btn_wrap">
@@ -120,7 +120,7 @@
             </div>
         </div>
         <!-- content2 -->
-        <div class="content2">
+        <div class="content2 target toup active" id="prhall_sec">
             <a href="#">
                 <div class="box_wrap">
                     <span>ONLINE</span>
@@ -159,8 +159,9 @@
                             </dl>
                         </a>
                     </div>
+
                     <ul class="list_area">
-                        <li class="target">
+                        <li class="target active" id="listarea1">
                             <a href="#" class="prd_area">
                                 <div class="img_area"><img src="images/img_prd01.jpg" alt="컴포넌트"></div>
                                 <div class="txt_area">
@@ -172,7 +173,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="target right">
+                        <li class="target right active" id="listarea2">
                             <a href="#" class="prd_area">
                                 <div class="img_area"><img src="images/img_prd02.jpg" alt="모듈"></div>
                                 <div class="txt_area">
@@ -184,7 +185,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="target">
+                        <li class="target active" id="listarea3">
                             <a href="#" class="prd_area">
                                 <div class="img_area"><img src="images/img_prd03.jpg" alt="인쇄회로기판"></div>
                                 <div class="txt_area">
